@@ -8,3 +8,9 @@
 	* Can generate table from your data was scrap in website 
 </p>
 <img src="Screenshot 2024-10-11 175927.png">
+
+<h2>Demo Page Scraping</h2>
+<img src="Screen-Recording-2024-09-30-113502.gif">
+<br>
+<h2>Demo Page Analyize</h2>
+<img src="Screen-Recording-2024-10-11-201856.gif">
