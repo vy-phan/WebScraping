@@ -1,79 +1,74 @@
-# Data Visualization with Ollama version llama3.2 by Meta
-<img src="Screenshot 2024-10-11 175927.png">
+# 📊 Data Visualization with Ollama (LLaMA 3.2 by Meta)
 
-## Description
-This project offers a comprehensive solution for sales data analysis and visualization. It seamlessly integrates data ingestion from CSV files and web scraping, providing flexibility in data sourcing. Users can leverage the power of Pandas and Streamlit for efficient data processing and interactive exploration. A unique AI-powered chat feature allows users to ask natural language questions about their data, gaining deeper insights. Dynamic charting capabilities enable the creation of compelling visualizations, revealing trends and patterns. Furthermore, the project employs AI to automatically structure scraped web data into organized tables, streamlining the analysis process. This project empowers users to unlock the full potential of their sales data, regardless of its origin, through a user-friendly and intelligent interface.
+![Project Screenshot](Screenshot%202024-10-11%20175927.png)
 
-## Features
--**Flexible Data Ingestion:** Import sales data from CSV files. The project allows users to easily change the working directory for seamless file access. Additionally, it incorporates web scraping capabilities to extract data from various websites, expanding the range of data sources.
+## 🔍 Overview
+This project provides a powerful solution for sales data analysis and visualization. It supports **data ingestion from CSV files and web scraping**, enabling flexible data sourcing. Users can leverage **Pandas and Streamlit** for efficient data processing and exploration. 
 
--**Powerful Data Processing with Pandas and Streamlit:** Leveraging the robust data manipulation capabilities of the Pandas library within an interactive Streamlit interface, users can explore and process data efficiently. This includes data cleaning, transformation, and aggregation.
+🚀 **Key Highlights:**
+- **AI-powered Chat** 🤖: Ask natural language questions about your data.
+- **Dynamic Charting** 📈: Generate interactive visualizations.
+- **Automated Table Structuring** 📋: AI organizes web-scraped data into tables.
+- **Seamless Integration** 🔄: Works with CSV and web sources.
 
--**Interactive Data Exploration with AI-Powered Chat:** A unique feature of this project is its integrated AI chat functionality. Users can ask natural language questions about their CSV data and receive insightful responses, facilitating data understanding and exploration. This provides a user-friendly way to interact with and glean insights from the data.
+## ✨ Features
+✅ **Flexible Data Ingestion**: Import sales data from CSV or scrape from websites. 
 
--**Dynamic Data Visualization:** Create compelling visualizations of sales data using a variety of chart types. This feature allows users to identify trends, patterns, and outliers within their data, enhancing data interpretation and communication.
+✅ **Interactive Data Processing**: Utilize Pandas and Streamlit for easy data transformation.
 
--**AI-Powered Table Generation from Web Data:** Scraped web data can be automatically structured into organized tables using AI, simplifying data analysis and reporting. This feature streamlines the process of converting unstructured web data into a usable format.
+✅ **AI-Powered Insights**: Ask questions about your CSV data and receive instant responses.
 
-<h2>Demo Page Scraping</h2>
-<img src="Screen-Recording-2024-09-30-113502.gif">
-<br>
-<h2>Demo Page Analyize</h2>
-<img src="Screen-Recording-2024-10-11-201856.gif">
+✅ **Visual Analytics**: Generate insightful charts to identify trends and patterns.
 
-## Requirements
-- Python 3.x
-- pandas
-- Streamlit
-- Seleiumn
-- ollama with model Llama 3.2 7B by Meta
+✅ **Web Data Structuring**: Convert raw web data into structured tables for analysis.
 
-## Installation
-1. Clone the repository:
-    ```powershell
-    git clone https://github.com/vy-phan/WebScraping.git
-    ```
-2. Navigate to the project directory:
-    ```powershell
-    cd datavis
-    ```
-3. Install the required packages:
-    ```powershell
-    pip install -r requirements.txt
-    ```
+### 🖥️ Demo
+#### 🔎 Web Scraping Example
+![Web Scraping Demo](Screen-Recording-2024-09-30-113502.gif)
 
-# Installing Ollama and LLaMA 3.2 Model
+#### 📊 Data Analysis in Action
+![Data Analysis Demo](Screen-Recording-2024-10-11-201856.gif)
 
-This guide outlines the steps to install Ollama and the LLaMA 3.2 model.
+## ⚙️ Requirements
+- Python 3.x 🐍
+- Pandas 📊
+- Streamlit 🌐
+- Selenium 🕷️
+- Ollama + LLaMA 3.2 Model 🧠
 
-## Step 1: Install Ollama
+## 📥 Installation
+1️⃣ **Clone the repository**:
+```powershell
+git clone https://github.com/vy-phan/WebScraping.git
+```
+2️⃣ **Navigate to the project directory**:
+```powershell
+cd datavis
+```
+3️⃣ **Install dependencies**:
+```powershell
+pip install -r requirements.txt
+```
 
-1. Download the Ollama installer from the official website: [https://ollama.ai/download](https://ollama.ai/download)
-2. Run the installer and follow the on-screen instructions to complete the installation.
+## 🛠️ Installing Ollama & LLaMA 3.2
+### Step 1️⃣: Install Ollama
+🔗 Download from: [Ollama Official Site](https://ollama.ai/download)  
+📥 Run the installer and follow the setup instructions.
 
-## Step 2: Install LLaMA 3.2 Model
-
-1. Open a terminal or command prompt.
-2. Run the following command to install the LLaMA 3.2 model:
-
+### Step 2️⃣: Install LLaMA 3.2 Model
+Run the following command:
 ```bash
 ollama pull llama-3.2
 ```
 
-## Step 3: Verify Installation
-
-1. Run the following command to verify that the model has been installed correctly:
-
+### Step 3️⃣: Verify Installation
+Check if the model is installed:
 ```bash
 ollama list
 ```
+✅ You should see `llama-3.2` in the list.
 
-You should see llama-3.2 listed among the installed models.
-
-## Running LLaMA 3.2
-
-After successful installation and verification, you can start a chat session with the LLaMA 3.2 model using:
-
+### 🚀 Running LLaMA 3.2
+Start a chat session with:
 ```bash
 ollama run llama-3.2
-```
