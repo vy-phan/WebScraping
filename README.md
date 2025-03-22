@@ -58,7 +58,7 @@ pip install -r requirements.txt
 ### Step 2️⃣: Install LLaMA 3.2 Model
 Run the following command:
 ```bash
-ollama pull llama-3.2
+ollama pull llama3.2
 ```
 
 ### Step 3️⃣: Verify Installation
@@ -66,9 +66,9 @@ Check if the model is installed:
 ```bash
 ollama list
 ```
-✅ You should see `llama-3.2` in the list.
+✅ You should see `llama3.2` in the list.
 
 ### 🚀 Running LLaMA 3.2
 Start a chat session with:
 ```bash
-ollama run llama-3.2
+ollama run llama3.2
